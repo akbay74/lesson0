@@ -17,4 +17,4 @@ print(a == b)
 # 4th program
 a = '123.456'
 b = a.find('.')
-print(int(a[b-1]))
+print(int(a[b+1]))
