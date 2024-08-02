@@ -9,7 +9,12 @@ a = (1234 % 1000) // 10
 b = (5678 % 1000) // 10
 print(a, b)
 
-# 4th program
+# 4th program old version
 a = int(13.42)
 b = int((42.13 * 100) % 100)
 print(a == b)
+
+# 4th program
+a = '123.456'
+b = a.find('.')
+print(int(a[b-1]))
